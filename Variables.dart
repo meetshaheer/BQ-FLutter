@@ -1,6 +1,10 @@
 import 'dart:html';
 
 void main() {
+  // A container or a box that contain value.
+
+  var myage = 24;
+
   // Rules for defining variables
   // 1. Variable name should start with alphabets or underscore
   // 2. Variable name can contain alphabets, numbers and underscore
@@ -43,4 +47,21 @@ void main() {
   // // Double Use double if your're putting specific floating values.
   double height1 = 5.8;
   print(height1);
+
+  // Types of Variables
+  // Static Vs Dynamic
+
+  var my_address = "Golden Town Karachi";
+  // This is static variable.
+  // Means in future you cant iterate other data type in this variable.
+
+  my_address = 7500;
+
+  dynamic Home_Address = "Golden Town Lahore";
+  print(Home_Address);
+  // By using dynamic Means in future you cant iterate other data type
+  // in this variable.
+
+  Home_Address = 7800;
+  print(Home_Address);
 }
