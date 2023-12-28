@@ -20,11 +20,11 @@ void main() {
   var isLogin = false;
   print(name);
   print(age);
-  ;
+
   print(height);
   print(isLogin);
 
-  // // Strings Combinations of characters
+  // // Strings Combinations of characters. Must be in inverted commas.
   String name1 = "Bilal";
   String rollNumber = '17B';
   String email = "bilal@gmail.com";
@@ -34,7 +34,7 @@ void main() {
   print(email);
   print(address);
 
-  // // Numbers Use num keyword if you're specify the int and double type.
+  // // Numbers Use num keyword if you're not specify the int and double type.
   num no1 = 12;
   num no2 = 56.8;
   num result = no1 + no2;
@@ -53,15 +53,15 @@ void main() {
 
   var my_address = "Golden Town Karachi";
   // This is static variable.
-  // Means in future you cant iterate other data type in this variable.
 
   my_address = 7500;
+  // Means in future you cant iterate other data type in this variable.
 
   dynamic Home_Address = "Golden Town Lahore";
   print(Home_Address);
-  // By using dynamic Means in future you cant iterate other data type
-  // in this variable.
 
   Home_Address = 7800;
+  // By using dynamic, in future you initialize other data type in this same variable
+
   print(Home_Address);
 }
