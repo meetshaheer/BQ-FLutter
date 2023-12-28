@@ -54,7 +54,7 @@ void main() {
   var my_address = "Golden Town Karachi";
   // This is static variable.
 
-  my_address = 7500;
+  //my_address = 7500;
   // Means in future you cant iterate other data type in this variable.
 
   dynamic Home_Address = "Golden Town Lahore";
