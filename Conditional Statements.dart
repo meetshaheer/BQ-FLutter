@@ -166,4 +166,23 @@ void main(List<String> args) {
   } else {
     print("Sorry! First Meet your Service Duration.");
   }
+
+  // Example 2.
+  gender = "Female";
+  String education = "Matric";
+  String compProf = "No";
+
+  if (gender == "Male") {
+    if ((education == "Matric" ||
+            education == "Inter" ||
+            education == "Diploma") &&
+        compProf == "Yes") {
+      print("You are slected for Android App Dev Course");
+    } else {
+      print(
+          "Please Complete your Education or Enhace your Computer proficiency");
+    }
+  } else {
+    print("Sorry! Only Males are Allowed");
+  }
 }
