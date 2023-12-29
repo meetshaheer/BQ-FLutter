@@ -132,4 +132,38 @@ void main(List<String> args) {
   } else {
     print("Invalid Group Entered");
   }
+
+  // Nested If-Else Statements
+  // Concept of Outer & Inner Conditions
+  // Execution of inner conditions depends on outer condition.
+  // If outer condition doesn't met the criteria, it skip inner statements &
+  // jumps over else block.
+
+  // Use when atleast meeting criteria of one condition is necessary.
+
+  // Syntax
+  // if (condition) {
+  //   if (condition) {
+
+  //   }
+  //   else {
+
+  //   }
+  // } else {
+
+  // }
+
+  // Example 1.
+  int service = 5;
+  String des = "Manager", Gender = "Male";
+
+  if (service >= 5) {
+    if ((des == "Manager" || des == "Supervisor") && Gender == "Male") {
+      print("Congrats. You're Eligible for Europe Tour");
+    } else {
+      print("Sorry! Promote Yourself");
+    }
+  } else {
+    print("Sorry! First Meet your Service Duration.");
+  }
 }
