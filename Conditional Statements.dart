@@ -76,4 +76,60 @@ void main(List<String> args) {
   } else {
     print("Sorry, your number is not Odd");
   }
+
+  // If-Else-If Statements
+  // We set many conditions in this type of conditional statement.
+  //Output Providing is necessary. Whether it is on true or false of conditions.
+
+  //Syntax. At "condition" you define a condition, add output of condition b/w {}
+  // Execute if block if condition mets, if not, jumps to next if block, then
+  //next, then next upto no.of conditions, if all conditions are not met then
+  // execute else block.
+
+  // if (condition) {
+
+  // } else if (condition){
+
+  // } else if (condition){
+
+  // } else if (condition){
+
+  // } else if (condition){
+
+  // } else (condition){
+
+  // }
+
+  // Example 1.
+  age = 16; // Enter Age less then 15
+  if (age == 0) {
+    print("No born");
+  } else if (age > 0 && age < 5) {
+    print("Child....");
+  } else if (age >= 5 && age < 10) {
+    print("Boy...");
+  } else if (age == 10) {
+    print("Teenager...");
+  } else if (age > 10 && age <= 15) {
+    print("Under 15");
+  } else {
+    print("Invalid Age");
+  }
+
+  // Example 2
+  String blood_group = "B+";
+
+  if (blood_group == "A") {
+    print("A Nutral");
+  } else if (blood_group == "A-") {
+    print("A Negative");
+  } else if (blood_group == "A+") {
+    print("A Positive");
+  } else if (blood_group == "B") {
+    print("B Nutral");
+  } else if (blood_group == "B+") {
+    print("B Positive");
+  } else {
+    print("Invalid Group Entered");
+  }
 }
