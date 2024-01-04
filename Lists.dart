@@ -69,4 +69,20 @@ void main(List<String> args) {
   // 3,4 replace from 3 till before 4.
   // length-1 , length starts from last digit till before last digit.
   // // DETAIL OF REPLACING BY RANGE
+
+  print(studentName);
+  studentName
+      .replaceRange(studentName.length - 1, studentName.length, ["Replace"]);
+  print(studentName);
+
+  List numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  numbers.replaceRange(1, 5, [9]);
+
+  List numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  numbers1.replaceRange(1, 5, [9, 8, 7]);
+  // Replace the given list to existing list at given range.
+  // If range fulfill the given list, it replace.
+  // If range not fulfill thE given range, it remove extra elements from existing list.
+  print(numbers);
+  print(numbers1);
 }
