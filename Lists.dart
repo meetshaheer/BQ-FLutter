@@ -45,4 +45,28 @@ void main(List<String> args) {
 
   print(
       studentName.isEmpty); // Check list is empty or not and return True False.
+
+  print(studentName
+      .isNotEmpty); // Check list is empty or not and return True False.
+
+  print(studentName[studentName.length - 1]); // Get the second last element.
+
+  print(studentName.elementAt(2)); // Get the element by using index no.
+
+  studentName.add("Imaad"); // Add one element at last in list.
+
+  studentName.addAll(["Last1", "Last2"]); // Add more then 1 element.
+
+  studentName.insert(0, "First"); // Add element at specific index.
+
+  studentName
+      .insertAll(1, ["iterable", "2nd Iter"]); // Insert all at specific index.
+
+  print(studentName);
+
+  studentName.replaceRange(1, 3, ['Ali', 'Ahmed']); // Replacing by range.
+  // In the above, Replace from 1 till befores 3.
+  // 3,4 replace from 3 till before 4.
+  // length-1 , length starts from last digit till before last digit.
+  // // DETAIL OF REPLACING BY RANGE
 }
