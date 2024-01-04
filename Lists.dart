@@ -32,4 +32,17 @@ void main(List<String> args) {
   print(studentName[1]);
   print(studentName[
       2]); // put 0 to 3 to print different elements according to your list Length
+
+  // Methods OR Functions of List
+  print(studentName.length);
+  // Indexing start from 0 and ends at length - 1.
+
+  print(studentName.first); // Get First Element.
+
+  print(studentName.last); // push the last element.
+
+  print(studentName.indexed); // Represent all elements with indexes.
+
+  print(
+      studentName.isEmpty); // Check list is empty or not and return True False.
 }
