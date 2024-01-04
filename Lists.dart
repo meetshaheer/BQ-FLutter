@@ -85,4 +85,9 @@ void main(List<String> args) {
   // If range not fulfill thE given range, it remove extra elements from existing list.
   print(numbers);
   print(numbers1);
+
+  // Sorting
+  studentName.sort(); // Ascending
+  print(studentName);
+  print(studentName.reversed); // Descending
 }
