@@ -90,4 +90,22 @@ void main(List<String> args) {
   studentName.sort(); // Ascending
   print(studentName);
   print(studentName.reversed); // Descending
+
+  studentName.clear(); // Clear the List
+
+  studentName.remove("iterable"); // remove element.
+  print(studentName);
+
+  List list = [3, 7, 1, 9, 6, 3];
+  list.removeWhere((e) => e == 3); // set dynamic function that remove elements
+  //on the basis of condition.
+  print(list);
+
+  list.retainWhere((i) => i == 1); // retain on the basis of condition.
+  // Opposite to removewhere.
+  print(list);
+
+  List list1 = [1, "a", 2, "b", 3, "c", 4, "d"];
+  var alpha = list1.whereType<String>();
+  print(alpha);
 }
