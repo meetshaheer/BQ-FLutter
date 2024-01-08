@@ -2,6 +2,7 @@ import 'dart:io';
 import 'dart:ffi';
 
 void main(List<String> args) {
+  // Containing Key Value Pair.
   Map student1 = {"name": "Shaheer", "Age": 34};
 
   print(student1["name"]);
@@ -23,6 +24,7 @@ void main(List<String> args) {
     {"name": "Shah", "Age": 14}
   ];
 
+  // Print Names using For Each Loop
   for (var e in Students) {
     print(e["name"]);
   }
@@ -30,17 +32,21 @@ void main(List<String> args) {
   for (var i = 0; i < Students.length; i++) {
     print(Students[i]);
   }
-
+  //  Defining the data type of Key Value Pair
   Map<String, dynamic> employes = {"Name": "Shaheer", "Age": 54};
 
+  // Map Methods
   print(employes.length);
   print(employes.isEmpty);
   print(employes.isNotEmpty);
 
+  // Add Pair in Map
   employes["Address"] = "Malir";
   print(employes);
 
   Map Rollno = {1: "Shaheer", 2: "Ahmed"};
+
+  // Add using method.
   Rollno.putIfAbsent(2, () => "Ali");
   var abc = Rollno.putIfAbsent(3, () => "Ali");
   print(abc);
@@ -74,10 +80,12 @@ void main(List<String> args) {
 
   print(haha[2][1]["hehe"][0]["hehe"]["haha"]);
 
+  // Map Methods
   print(Rollno);
   print(Rollno.containsKey(2));
   print(Rollno.containsValue("Ali"));
 
+  // Map For each Iterater Loop
   Map fruits = {1: "Banana", 2: "Mango", 3: "Apple", 4: "Orange"};
   fruits.forEach((key, value) {
     print("Hi $value");
