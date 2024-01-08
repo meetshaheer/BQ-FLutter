@@ -42,5 +42,5 @@ void main(List<String> args) {
   //
   //
 
-  //print(haha[2][1]["hehe"][0]["hehe"]["haha"]);
+  print(haha[2][1]["hehe"][0]["hehe"]["haha"]);
 }

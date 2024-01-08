@@ -73,4 +73,13 @@ void main(List<String> args) {
   ];
 
   print(haha[2][1]["hehe"][0]["hehe"]["haha"]);
+
+  print(Rollno);
+  print(Rollno.containsKey(2));
+  print(Rollno.containsValue("Ali"));
+
+  Map fruits = {1: "Banana", 2: "Mango", 3: "Apple", 4: "Orange"};
+  fruits.forEach((key, value) {
+    print("Hi $value");
+  });
 }
