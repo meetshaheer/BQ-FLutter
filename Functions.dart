@@ -39,12 +39,12 @@ void main(List<String> args) {
   //Example 3:
   double Addition(double num1, double num2) {
     double result = num1 + num2;
-    print(result);
     return result;
   }
 
   double num1 = double.parse(stdin.readLineSync()!);
   double num2 = double.parse(stdin.readLineSync()!);
 
-  Addition(num1, num2);
+  double result = Addition(num1, num2);
+  print(result);
 }
