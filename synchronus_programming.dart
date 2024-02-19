@@ -32,7 +32,7 @@ void main(List<String> args) async {
   userLogin();
 }
 
-// Example 1
+// Delay Function Example 1
 void delayFunction() async {
   print("Wait! Your request is processing");
   await Future.delayed(Duration(seconds: 10));
