@@ -39,7 +39,7 @@ void delayFunction() async {
   print("Your Request Proceed");
 }
 
-// Example 2
+// Delay Function Example 2
 void userLogin() async {
   print("Enter YOur User Name");
   String id = stdin.readLineSync()!;
