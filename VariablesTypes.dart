@@ -35,4 +35,21 @@ void main(List<String> args) {
 
   address = address.replaceAll("M>A", 'M.A');
   print(address);
+
+  const mylist = [1, 2, 3, 4];
+
+  // Not Allowed
+  // mylist = [5, 6, 7];
+  print(mylist);
+  // Not Allowed Modifications
+  // mylist.add(8);
+
+  final mylist2 = [1, 2, 3, 4];
+
+  // Not Allowed
+  // mylist2 = [5, 6, 7];
+  print(mylist2);
+  // Allowed Modifications
+  mylist2.add(8);
+  print(mylist2);
 }
