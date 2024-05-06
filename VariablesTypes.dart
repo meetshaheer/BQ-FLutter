@@ -16,8 +16,8 @@ void main(List<String> args) {
   rollslip.removeAt(2);
 
   const roll = [1, 3, 4, 5, 6];
-  // //Dont allow to change value intself
-  roll.removeAt(2);
+  // //Dont allow to modify value intself
+  // roll.removeAt(2);
 
   final names = [1, 2, 3, 4];
   print(names.removeAt(2));
