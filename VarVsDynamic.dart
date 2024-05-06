@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main(List<String> args) {
   // Types of Variables
   // Static Vs Dynamic

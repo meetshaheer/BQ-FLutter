@@ -1,0 +1,38 @@
+void main(List<String> args) {
+  const name1 = 'Foo';
+  print(name1);
+
+  // //Dont allow to assiging new value
+  // // name = "Hoo";
+
+  final name2 = 'Goo';
+  print(name2);
+
+  // //Dont allow to assiging new value
+  // // name2 = "Hoo";
+
+  final rollslip = [1, 3, 4, 5, 6];
+  // // allow to change value intself
+  rollslip.removeAt(2);
+
+  const roll = [1, 3, 4, 5, 6];
+  // //Dont allow to change value intself
+  roll.removeAt(2);
+
+  final names = [1, 2, 3, 4];
+  print(names.removeAt(2));
+  print(names);
+
+  var address = "406 New Street Sadar Karachi";
+  print(address);
+
+  // Var keyword ALlow to change same data type data
+  address = "500 Street M>A Jinnah Road";
+  print(address);
+
+  // Var keyword does not to replace with other data type
+  //address = 5600;
+
+  address = address.replaceAll("M>A", 'M.A');
+  print(address);
+}
