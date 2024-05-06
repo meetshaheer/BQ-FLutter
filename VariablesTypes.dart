@@ -70,6 +70,13 @@ void main(List<String> args) {
   print("SHaheer AHmed");
   print(yourname);
   print("Salman AHmed");
+
+  var myage = 30;
+  var yourage = 30.6;
+
+  // Dont allow type promotions.
+  yourage = myage;
+  myage = yourage;
 }
 
 // Expected Output
