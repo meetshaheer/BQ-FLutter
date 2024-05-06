@@ -75,8 +75,21 @@ void main(List<String> args) {
   var yourage = 30.6;
 
   // Dont allow type promotions.
-  yourage = myage;
-  myage = yourage;
+  // yourage = myage;
+  // myage = yourage;
+
+  // Specifing Data Types
+
+  final String hisname = "Shaheer";
+  final hername = "Fatima";
+
+  const herage = 23;
+  final double hisage = 50;
+
+  print(hisname);
+  print(hername);
+  print(herage);
+  print(hisage);
 }
 
 // Expected Output
