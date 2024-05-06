@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 void main(List<String> args) {
   const name1 = 'Foo';
   print(name1);
@@ -60,4 +62,29 @@ void main(List<String> args) {
 
   // Didn't Allow assiging final to const
   // const somelist = thatlist;
+
+  print('\n\n');
+
+  // Special Type of Variable. Only Compile when it used.
+  late int yourname = lateley();
+  print("SHaheer AHmed");
+  print(yourname);
+  print("Salman AHmed");
+}
+
+// Expected Output
+/// Hello
+/// Shaheer AHmed
+/// 10
+/// Salman Ahmed
+///
+/// Actual Output
+/// Shaheer AHmed
+/// Hello
+/// 10
+/// Salman Ahmed
+
+int lateley() {
+  print("Hello");
+  return 10;
 }
