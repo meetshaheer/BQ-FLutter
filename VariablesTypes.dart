@@ -65,7 +65,7 @@ void main(List<String> args) {
 
   print('\n\n');
 
-  // Special Type of Variable. Only Compile when it used.
+  // Special Type of Variable. Only Initialize when it is use.
   late int yourname = lateley();
   print("SHaheer AHmed");
   print(yourname);
