@@ -52,4 +52,12 @@ void main(List<String> args) {
   // Allowed Modifications
   mylist2.add(8);
   print(mylist2);
+
+  const thislist = [1, 2, 3];
+
+  // Allow assiging const to final
+  final thatlist = thislist;
+
+  // Didn't Allow assiging final to const
+  // const somelist = thatlist;
 }
